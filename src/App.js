@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { TodoProvider } from './context/TodoContext'
+import Footer from './components/layout/Footer'
+import Header from './components/layout/Header'
+import TodoForm from './components/TodoForm'
+import TodoList from './components/TodoList'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<>
+			<TodoProvider>
+				<div className='flex flex-col justify-between h-screen items-center'>
+					<Header className='flex-none' />
+					<TodoForm className='flex-none' />
+					<TodoList className='flex' />
+					<Footer />
+				</div>
+			</TodoProvider>
+			<ToastContainer autoClose={2000} theme='dark' />
+		</>
+	)
 }
 
-export default App;
+export default App

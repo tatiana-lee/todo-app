@@ -1,0 +1,24 @@
+{
+  "todo": [
+    {
+      "text": "Wash dishes",
+      "isCompleted": false,
+      "id": 1
+    },
+    {
+      "text": "Play with cat",
+      "isCompleted": false,
+      "id": 2
+    },
+    {
+      "text": "Read a book",
+      "isCompleted": false,
+      "id": 3
+    },
+    {
+      "text": "Complete Todo App",
+      "isCompleted": true,
+      "id": 4
+    }
+  ]
+}
