@@ -2,7 +2,7 @@ import { FaGithub } from 'react-icons/fa'
 
 function Footer() {
 	return (
-		<div className='flex items-center justify-center h-14'>
+		<div className='flex h-14 p-4'>
 			<a
 				href='https://github.com/tatiana-lee'
 				target='_blank'

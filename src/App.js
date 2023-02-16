@@ -10,11 +10,11 @@ function App() {
 	return (
 		<>
 			<TodoProvider>
-				<div className='flex flex-col justify-between h-screen items-center'>
+				<div className='flex flex-col justify-between items-center h-screen'>
 					<Header className='flex-none' />
 					<TodoForm className='flex-none' />
-					<TodoList className='flex' />
-					<Footer />
+					<TodoList className='flex overflow-auto' />
+					<Footer className='flex-none' />
 				</div>
 			</TodoProvider>
 			<ToastContainer autoClose={2000} theme='dark' />
