@@ -1,12 +1,15 @@
-# React Todo App
+# Todo App
 
-This is my vision of Todo App.
+## Stack:
 
-This project uses Tailwind CSS and Daisy UI.
+[React](https://reactjs.org/)\
+[Daisy UI](https://daisyui.com/)\
+[Tailwind CSS](https://tailwindcss.com/)\
+[JSON Server](https://www.npmjs.com/package/json-server)
 
 ---
 
-# Usage
+## Usage
 
 ### Install dependencies
 
@@ -21,3 +24,5 @@ npm run dev
 ```
 
 This will run JSON-server on port :6000 and React on port :3000
+
+![Todoapp](./public/Screenshot.png)
